@@ -20,7 +20,7 @@ body {
   width: 100%;
 }
 
-.more-info {
+.header__link-info {
   font-family: "fantasy", cursive;
 }
 
@@ -74,7 +74,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="main__new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -102,12 +102,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+label[for="main__new-task"] {
   display: block;
   margin: 0 0 20px;
 }
 
-#new-task {
+#main__new-task {
   width: 318px;
 }
 
@@ -156,7 +156,7 @@ li > .delete:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+#main__completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
